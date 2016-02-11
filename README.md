@@ -7,4 +7,9 @@ npm i --save-dev eslint eslint-config-rentpath
 ```
 
 ## Usage
-Add `"extends": "rentpath"` to your .eslintrc
+Add the following entry to your `.eslintrc`
+```json
+{
+  "extends": "rentpath"
+}
+```
