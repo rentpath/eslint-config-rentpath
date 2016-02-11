@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-rentpath",
+  "version": "1.0.0",
+  "description": "RentPath’s extensible shared config for [ESLint](http://eslint.org/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rentpath/eslint-config-rentpath.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rentpath/eslint-config-rentpath/issues"
+  },
+  "homepage": "https://github.com/rentpath/eslint-config-rentpath#readme",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
+  "dependencies": {
+    "eslint-config-airbnb": "^5.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=1.0.0"
+  }
+}
