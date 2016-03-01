@@ -4,12 +4,12 @@
   "description": "RentPath’s extensible shared config for [ESLint](http://eslint.org/)",
   "main": "index.js",
   "scripts": {
-    "semantic-release": "semantic-release pre && semantic-release post",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rentpath/eslint-config-rentpath.git"
+    "url": "https://github.com/rentpath/eslint-config-rentpath.git"
   },
   "license": "MIT",
   "bugs": {
