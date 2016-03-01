@@ -4,8 +4,7 @@
   "description": "RentPath’s extensible shared config for [ESLint](http://eslint.org/)",
   "main": "index.js",
   "scripts": {
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
