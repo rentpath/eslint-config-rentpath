@@ -1,14 +1,14 @@
 {
   "name": "eslint-config-rentpath",
-  "version": "1.1.0",
+  "version": "0.0.0-semantically-released",
   "description": "RentPath’s extensible shared config for [ESLint](http://eslint.org/)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rentpath/eslint-config-rentpath.git"
+    "url": "https://github.com/rentpath/eslint-config-rentpath.git"
   },
   "license": "MIT",
   "bugs": {
@@ -23,9 +23,10 @@
     "styleguide"
   ],
   "dependencies": {
-    "eslint-config-airbnb": "^5.0.0",
     "commitizen": "^2.3.0",
-    "cz-conventional-changelog": "^1.1.5"
+    "cz-conventional-changelog": "^1.1.5",
+    "eslint-config-airbnb": "^5.0.0",
+    "semantic-release": "^4.3.5"
   },
   "peerDependencies": {
     "eslint": ">=1.0.0"
