@@ -23,9 +23,10 @@
     "styleguide"
   ],
   "dependencies": {
+    "eslint-config-airbnb": "^5.0.0",
+    "eslint-plugin-react": "^4.1.0",
     "commitizen": "^2.3.0",
     "cz-conventional-changelog": "^1.1.5",
-    "eslint-config-airbnb": "^5.0.0",
     "semantic-release": "^4.3.5"
   },
   "peerDependencies": {
