@@ -6,3 +6,4 @@ module.exports = {
   ].map(require.resolve),
   rules: {}
 }
+
