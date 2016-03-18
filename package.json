@@ -24,14 +24,14 @@
   ],
   "dependencies": {
     "eslint-config-airbnb": "^5.0.0",
-    "eslint-plugin-react": "^4.1.0",
-    "commitizen": "^2.3.0",
-    "cz-conventional-changelog": "^1.1.5"
+    "eslint-plugin-react": "^4.1.0"
   },
   "peerDependencies": {
     "eslint": ">=1.0.0"
   },
   "devDependencies": {
+    "commitizen": "^2.3.0",
+    "cz-conventional-changelog": "^1.1.5",
     "semantic-release": "^4.3.5"
   },
   "config": {
@@ -40,3 +40,4 @@
     }
   }
 }
+

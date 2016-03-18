@@ -12,3 +12,4 @@ module.exports = {
     'yoda': [2, 'never']
   }
 }
+
