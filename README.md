@@ -17,6 +17,14 @@ Add the following entry to your `.eslintrc`
 }
 ```
 
+It's easiest to add a script to `package.json` to run linting; for example,
+```json
+"scripts": {
+  "lint": "eslint <path_to_javascript_dir>",
+}
+```
+
+Then just `$ npm run lint`
 ## Commitizen
   `eslint-config-rentpath` uses [Commitizen](https://commitizen.github.io/cz-cli/) to format commit messages.
   * Install it globally `$ npm install -g commitizen`
