@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
-    // disallow trailing commas in object literals
-    'comma-dangle': [2, 'never'],
+    // require trailing comma in multilines
+    'comma-dangle': [2, 'always-multiline'],
     // require function expressions to have a name
     'func-names': 0,
     // require or disallow use of semicolons instead of ASI
