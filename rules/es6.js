@@ -6,5 +6,7 @@ module.exports = {
     'arrow-parens': [2, 'as-needed'],
     // suggest using arrow functions as callbacks
     'prefer-arrow-callback': 2,
+    // allow setState in componentDidMount
+    'no-did-mount-set-state': 'off',
   }
 }
