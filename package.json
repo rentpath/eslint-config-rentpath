@@ -1,11 +1,8 @@
 {
-  "name": "eslint-config-rentpath",
-  "version": "0.0.0-semantically-released",
+  "name": "@rentpath/eslint-config-rentpath",
+  "version": "3.0.0",
   "description": "RentPath’s extensible shared config for [ESLint](http://eslint.org/)",
   "main": "index.js",
-  "scripts": {
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/rentpath/eslint-config-rentpath.git"
@@ -23,20 +20,16 @@
     "styleguide"
   ],
   "dependencies": {
-    "eslint-config-airbnb": "^6.1.0",
-    "eslint-plugin-react": "^4.2.3"
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jest": "^20.0.3",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.3.0"
   },
   "peerDependencies": {
-    "eslint": "^2.4.0"
+    "eslint": "^4.5.0"
   },
-  "devDependencies": {
-    "commitizen": "^2.3.0",
-    "cz-conventional-changelog": "^1.1.5",
-    "semantic-release": "^4.3.5"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
+  "engines": {
+    "yarn": ">=0.24.6"
   }
 }
