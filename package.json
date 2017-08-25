@@ -1,6 +1,6 @@
 {
   "name": "@rentpath/eslint-config-rentpath",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "RentPath’s extensible shared config for [ESLint](http://eslint.org/)",
   "main": "index.js",
   "repository": {
@@ -21,6 +21,7 @@
   ],
   "dependencies": {
     "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-babel": "^4.1.2",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jest": "^20.0.3",
     "eslint-plugin-jsx-a11y": "^6.0.2",
