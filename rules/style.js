@@ -1,14 +1,6 @@
 module.exports = {
   rules: {
-    // enforce a new line after any const or let if func / if follows
-    'padding-line-between-statements': ['error',
-      {
-        'blankLine': 'always',
-        'prev': ['const', 'let'],
-        'next': ['block-like', 'function', 'if']
-      },
-    ],
-    // allow things like __DEV__
+    // allow class methods that don't utilize 'this'
     'class-methods-use-this': 0,
     // require trailing comma in multilines
     'comma-dangle': [2, 'always-multiline'],
@@ -39,9 +31,18 @@ module.exports = {
       'maxEOF': 1,
       'maxBOF': 0
     }],
+    // allow things like __DEV__
     'no-underscore-dangle': 0,
     // no padding inside blocks
     'padded-blocks': ['error', { 'blocks': 'never' }],
+    // enforce a new line after any const or let if func / if follows
+    'padding-line-between-statements': ['error',
+      {
+        'blankLine': 'always',
+        'prev': ['const', 'let'],
+        'next': ['block-like', 'function', 'if']
+      },
+    ],
     // require or disallow use of semicolons instead of ASI
     'semi': [2, 'never'],
     // require or disallow space before function opening parenthesis

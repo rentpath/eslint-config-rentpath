@@ -12,7 +12,6 @@ module.exports = {
     'react/no-array-index-key': 0,
     // allow string set to prop, overkill
     'react/style-prop-object': 0,
-    // allow class methods that don't utilize 'this'
     // enforces 3 props per line
     'react/jsx-max-props-per-line': [1, { maximum: 3 }],
     // enforces proper names for jsx components
