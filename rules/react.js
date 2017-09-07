@@ -16,6 +16,8 @@ module.exports = {
     'react/jsx-max-props-per-line': [1, { maximum: 3 }],
     // enforces proper names for jsx components
     'react/jsx-pascal-case': [2, { allowAllCaps: false }],
+    // disallow files from having more than one component at all
+    "react/no-multi-comp": [2, { "ignoreStateless": false }],
     // checks for proper casing and spelling on react syntax
     'react/no-typos': 2
   }
