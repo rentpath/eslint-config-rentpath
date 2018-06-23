@@ -10,5 +10,7 @@ module.exports = {
     'import/prefer-default-export': 0,
     // ignore references to root directory
     'import/no-extraneous-dependencies': 0,
+    // no console!
+    'no-console': 'error'
   }
 }
