@@ -11,6 +11,15 @@ module.exports = {
     // ignore references to root directory
     'import/no-extraneous-dependencies': 0,
     // no console!
-    'no-console': 'error'
+    'no-console': 'error',
+    // 3 or more enforces new line in objects
+    'object-curly-newline': [2, {
+      "ObjectExpression": { multiline: true, minProperties: 0, consistent: true },
+      "ObjectPattern": { multiline: true, minProperties: 3, consistent: true },
+      "ImportDeclaration": { multiline: true, minProperties: 3, consistent: true },
+      "ExportDeclaration": { multiline: true, minProperties: 3, consistent: true },
+    }],
+    // turn off destructure preference
+    'prefer-destructuring': 0
   }
 }
