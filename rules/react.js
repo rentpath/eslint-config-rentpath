@@ -23,6 +23,10 @@ module.exports = {
     // allow dot notation
     'react/destructuring-assignment': 0,
     // enforce multi-line except for things like <Button>Click</Button>
-    'react/jsx-one-expression-per-line': [2, { allow: 'literal' }]
+    'react/jsx-one-expression-per-line': [2, { allow: 'literal' }],
+    // ensure hooks appear at top level
+    'react-hooks/rules-of-hooks': 'error',
+    // verifies dependencies for useEffect and other hooks
+    'react-hooks/exhaustive-deps': 'warn'
   }
 }
