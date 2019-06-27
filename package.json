@@ -1,6 +1,6 @@
 {
   "name": "@rentpath/eslint-config-rentpath",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "RentPath’s extensible shared config for [ESLint](http://eslint.org/)",
   "main": "index.js",
   "repository": {
