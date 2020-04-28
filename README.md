@@ -27,3 +27,9 @@ It's easiest to add a script to `package.json` to run linting; for example,
 ```
 
 Then just `$ npm run lint` or `$ yarn lint`
+
+# Releasing
+
+1. Inside your pull request, bump the semantic version in `package.json`
+2. Merge the pull request
+3. [Draft a release](https://github.com/rentpath/eslint-config-rentpath/releases/new) and enter the semantic version from `package.json` tag. The release workflow will automatically publish your new package to GitHub [here](https://github.com/rentpath/eslint-config-rentpath/packages).
