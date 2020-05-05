@@ -23,6 +23,8 @@ module.exports = {
     // allow dot notation
     'react/destructuring-assignment': 0,
     // enforce multi-line except for things like <Button>Click</Button>
-    'react/jsx-one-expression-per-line': [2, { allow: 'literal' }]
+    'react/jsx-one-expression-per-line': [2, { allow: 'literal' }],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   }
 }
