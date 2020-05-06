@@ -11,7 +11,7 @@ module.exports = {
       'outerIIFEBody': 1,
       'ImportDeclaration': 'off',
       'SwitchCase': 1,
-      'MemberExpression': 'off',
+      'MemberExpression': 1,
       'FunctionDeclaration': {
         'parameters': 1,
         'body': 1
